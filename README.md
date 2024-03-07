@@ -6,7 +6,7 @@ JTE-CFlow is a novel flow-based generative method for low-light image enhancemen
 
 ### Evaluation Metrics
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 <table>
     <tr> 
