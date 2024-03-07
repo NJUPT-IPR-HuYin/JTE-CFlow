@@ -6,32 +6,7 @@ JTE-CFlow is a novel flow-based generative method for low-light image enhancemen
 
 ### Evaluation Metrics
 
-<style>
-    table {
-        font-size: 12px; /* 设置表格中文字的大小 */
-        width: 99%; /* 表格宽度100% */
-        border-collapse: collapse; /* 合并表格边框 */
-    }
-     th, td {
-        text-align: center;
-        padding: 8px;
-    }
-    .top-bordered {
-        border-top: 1px solid #000000; /* 添加上边框 */
-    }
-    .bottom-bordered {
-        border-bottom: 1px solid #000000; /* 添加下边框 */
-    }
-    .left-bordered {
-        border-left: 1px solid #000000; /* 添加左边框 */
-    }
-    .right-bordered {
-        border-right: 1px solid #000000; /* 添加右边框 */
-    }
-    .bold-top-border td {
-        border-top: 1px solid #000000
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <table>
     <tr> 
