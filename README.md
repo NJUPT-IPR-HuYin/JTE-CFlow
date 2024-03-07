@@ -139,7 +139,7 @@ JTE-CFlow is a novel flow-based generative method for low-light image enhancemen
     </tr>
 
 </table>
-
+(We remove the GT correction operation when obtaining the metrics of LLFlow for fair comparison. The enhanced image of SMG is with the size 512×512×3 that is different from the original ground truth (GT) image of each testing set, we rescale the enhanced images of SMG to have the same size with the original GT image of each testing set for fair comparison.)
 
 
 ### Visual Quality
