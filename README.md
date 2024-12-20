@@ -1,5 +1,6 @@
-# JTE-CFlow for Low-light Image Enhancement
+# [TITS 2024] JTE-CFlow for Low-Light Enhancement and Zero-Element Pixels Restoration With Application to Night Traffic Monitoring Images
 
+**[NOTE]** This paper has been accepted by IEEE TITS! [Link](https://ieeexplore.ieee.org/document/10807136)
 
 ## Introduction
 JTE-CFlow is a novel flow-based generative method for low-light image enhancement, which consists of a joint-attention transformer based conditional encoder (JTE) and a map-wise cross affine coupling flow (CFlow). **Experiments show that JTE-CFlow outperforms current SOTA methods on 7 mainstream low-light datasets with the same architecture**. 
@@ -171,6 +172,19 @@ You can test the model with paired data and obtain the evaluation metrics. You n
 python test.py
 ```
 
+## Citation
+If you find this work useful for your research, please cite our paper
+```
+@ARTICLE{10807136,
+  author={Hu, Changhui and Hu, Yin and Xu, Lintao and Guo, Yanyong and Cai, Ziyun and Jing, Xiaoyuan and Liu, Pan},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={JTE-CFlow for Low-Light Enhancement and Zero-Element Pixels Restoration With Application to Night Traffic Monitoring Images}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TITS.2024.3510832}}
+```
 
 ## Acknowledgments
 Our code is based on [LLFlow](https://github.com/wyf0912/LLFlow), [SNR](https://github.com/dvlab-research/SNR-Aware-Low-Light-Enhance).
